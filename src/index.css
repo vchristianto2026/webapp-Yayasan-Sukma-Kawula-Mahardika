@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Source Serif 4', Georgia, Cambria, 'Times New Roman', serif;
+    --font-display: 'Cinzel', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF8F5;
+    color: #1c1917;
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: var(--font-serif);
+  }
+
+  .font-brand {
+    font-family: var(--font-display);
+  }
+}
+
+@utility font-serif {
+  font-family: 'Source Serif 4', Georgia, serif;
+}
+
+@utility font-display {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+@utility font-sans {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+

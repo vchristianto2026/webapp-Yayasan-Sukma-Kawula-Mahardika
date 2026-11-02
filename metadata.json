@@ -1,0 +1,6 @@
+{
+  "name": "Yayasan Sukma Kawula Mahardika",
+  "description": "Yayasan Sukma Kawula Mahardika - Pendampingan Pemulihan Remaja & Pemuda Berbasis Kasih dan Iman dalam Yesus Kristus.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
